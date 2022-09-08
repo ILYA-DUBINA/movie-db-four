@@ -1,0 +1,111 @@
+.card {
+  max-width: 454px;
+
+  margin: 0 0 35px 0;
+
+  box-shadow: 0px 4px 12px 0px #00000026;
+}
+.card__content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card__content-data {
+  position: relative;
+
+  margin: 0 9px 0 20px;
+}
+.card__data-title,
+.card__data-time,
+.card__ganre-title,
+.card__ganre-name,
+.card__data-text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+
+  padding: 12px 0 7px 0;
+  margin: 0 0 0 0;
+
+  color: #000000;
+}
+.card__data-title {
+  flex: 50%;
+  padding: 0 4px 0 0;
+}
+.card__data-time {
+  font-size: 12px;
+  line-height: 22px;
+
+  padding: 0 0 9px 0;
+
+  color: #827e7e;
+}
+.card__data-ganre {
+  display: flex;
+
+  padding: 0 0 7px 0;
+}
+.card__ganre-title,
+.card__ganre-name {
+  font-size: 12px;
+  line-height: 15px;
+
+  padding: 2px 4px 3px 5px;
+
+  border: 1px solid #d9d9d9;
+}
+
+.card__ganre-name {
+  margin: 0 0 0 8px;
+}
+.card__data-text {
+  font-size: 12px;
+  line-height: 22px;
+
+  padding: 0 0 0 0;
+}
+
+.card__content-image {
+  height: 281px;
+}
+.card__image-img {
+  height: 281px;
+}
+
+.star {
+  margin-top: 10px;
+  margin-bottom: 10px;
+
+  cursor: pointer;
+  transition: color 200ms;
+}
+input[type="radio"] {
+  display: none;
+}
+label {
+  margin-left: 5px;
+}
+
+.card__data-reting {
+  width: 30px;
+  height: 30px;
+
+  position: relative;
+
+  border-radius: 50%;
+}
+.card__data-reting span {
+  font-size: 12px;
+
+  position: absolute;
+  top: 10%;
+  right: 35%;
+}
+.card__data-header {
+  display: flex;
+  justify-content: space-between;
+
+  padding: 12px 0 0 0;
+}

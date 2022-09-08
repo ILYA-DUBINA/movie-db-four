@@ -1,0 +1,29 @@
+header {
+  width: 140px;
+
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+
+  border-bottom: 1px solid #d9d9d9;
+}
+
+header a {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 22px;
+
+  padding: 19px 8px 15px 8px;
+
+  color: rgba(0, 0, 0, 0.65);
+}
+
+.header__search,
+.header__reted {
+  padding: 19px 0 11px 0;
+}
+.header__reted {
+  margin: 0 0 0 0;
+}

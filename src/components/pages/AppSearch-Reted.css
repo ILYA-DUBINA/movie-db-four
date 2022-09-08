@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Inter";
+  font-weight: 400;
+  src: local("Inter"), url(../../fonts/Inter-Regular.otf) format("opentype");
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #e5e5e5;
+}
+.allContent {
+  max-width: 1010px;
+
+  margin: 0 auto;
+
+  background-color: #ffffff;
+}
+
+.container {
+  max-width: 1010px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 36px 36px 0 36px;
+}
+
+.search {
+  max-width: 938px;
+
+  margin: 0 auto;
+  padding: 19px 0 0 0;
+}
+.pagination {
+  text-align: center;
+
+  padding-bottom: 18px;
+}
